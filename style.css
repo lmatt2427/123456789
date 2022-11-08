@@ -1,0 +1,104 @@
+<style>
+            html {
+                background-color: #424242;
+            }
+            
+            body {
+                width: 1200px;
+                margin: 0 auto;
+                font-family: Helvetica, Arial, sans-serif;
+            }
+            
+            a {
+                color: white;
+                background-color: #616161;
+                padding: 5 10 5 10;
+                border-radius: 50px;
+                text-decoration: none;
+                box-shadow: 0 6px 6px rgba(0,0,0,0.1);
+            }
+            
+            a.fav {
+                color: black;
+                background-color: yellow;
+            }
+            
+            p {
+                color: white;
+                line-height: 2em;
+            }
+        
+            .container:after { /*clear float*/
+                content: "";
+                display: table;
+                clear: both;
+            }
+
+            .section {
+                float: left;
+                border: 1px solid gray;
+                border-radius: 10px;
+                box-shadow: 0 6px 6px rgba(0,0,0,0.1);
+                margin-top:20px;
+                margin-right: 5px;
+                margin-left: 5px;
+                width: 390px;
+                height: 340px;
+                box-sizing: border-box;
+                padding: 20px 36px 10px 36px;
+            }
+            
+            .section2 {
+                float: left;
+                border: 1px solid gray;
+                border-radius: 10px;
+                box-shadow: 0 6px 6px rgba(0,0,0,0.1);
+                margin-top:20px;
+                margin-right: 5px;
+                margin-left: 5px;
+                width: 390px;
+                height: 136px;
+                box-sizing: border-box;
+                padding: 20px 36px 20px 36px;
+            }
+            
+            a.section {
+                background-color: darkslategrey;
+            }
+            
+            @media (max-width: 980px) { /*breakpoint*/
+                body {
+                width: 100%;
+                margin: 0 auto;
+                font-family: Helvetica, Arial, sans-serif;
+            }
+                
+                .section {
+                    float: left;
+                    width: 100%;
+                    height: auto;
+                    margin-right: 0px;
+                    box-shadow: 0 6px 6px rgba(0,0,0,0.1);
+                    border: 1px solid gray;
+                }
+                
+                .section2 {
+                    float: left;
+                    width: 100%;
+                    height: auto;
+                    margin-right: 0px;
+                    box-shadow: 0 6px 6px rgba(0,0,0,0.1);
+                    border: 1px solid gray;
+                }
+                
+                p {
+                    font-size: 3.25em;
+                    line-height: 2.5em;
+                }
+                
+                a {
+                    padding: 20 30 20 30;
+                }
+                
+            }
+        </style>

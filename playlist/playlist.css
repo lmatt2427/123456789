@@ -1,0 +1,35 @@
+html {
+        margin: 0 auto;
+        padding: 0;
+        background-color:darkslategrey; 
+    }
+    
+    body {
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+    }
+    
+    ul {
+        margin: 0 auto;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 0;
+        align-content: center;
+    }
+
+    li {
+        margin: 0 auto;
+        padding: 0;
+        height: 33vh;
+        width: 33.33%;
+        list-style: none;
+    }
+
+    img {
+        margin: 0 auto;
+        padding: 0;
+        max-width: 100%;
+        object-fit: fill;
+    }
