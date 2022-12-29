@@ -21,6 +21,11 @@
                 color: black;
                 background-color: yellow;
             }
+
+            a.new {
+                color: black;
+                background-color: skyblue;
+            }
             
             p {
                 color: white;
