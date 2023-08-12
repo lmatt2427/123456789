@@ -10,19 +10,37 @@ html {
         width: 100%;
     }
     
+
     ul {
         margin: 0 auto;
         padding: 0;
         display: flex;
         flex-wrap: wrap;
+        flex-direction: row;
         column-gap: 0;
         align-content: center;
+    }
+    
+    li {
+        margin: 0 auto;
+        padding: 0;
+        height: 33vh;
+        width: 33.33%;
+        list-style: none;
+    }
+
+    li .4-row {
+        margin: 0 auto;
+        padding: 0;
+        height: 25vh;
+        width: 33.33%;
+        list-style: none;
     }
 
     li {
         margin: 0 auto;
         padding: 0;
-        height: 33vh;
+        height: 25vh;
         width: 33.33%;
         list-style: none;
     }
