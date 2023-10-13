@@ -26,6 +26,11 @@
                 color: #121212;
                 background-color: skyblue;
             }
+
+            a.disabled {
+                color: #121212;
+                background-color:darksalmon;
+            }
             
             p {
                 color: white;
