@@ -46,9 +46,9 @@
             .section {
                 background-color: #383838;
                 float: left;
-                border-top: 3px solid rgba(255,255,255,0.1);
-                border-bottom: 3px solid rgba(0,0,0,0.1);
-                border-radius: 24px;
+                border-top: 1px solid rgba(255,255,255,0.1);
+                border-bottom: 1px solid rgba(0,0,0,0.1);
+                border-radius: 40px;
                 box-shadow: 0 10px 16px rgba(0,0,0,0.1);
                 margin-top:20px;
                 margin-right: 5px;
@@ -76,7 +76,7 @@
 
             .section img {
                 overflow: hidden;
-                border-radius: 16px;
+                border-radius: 24px;
                 box-shadow: 0 10px 16px rgba(0,0,0,0.5);
             }
             
